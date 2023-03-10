@@ -1,0 +1,34 @@
+﻿<Window x:Class="Makarena.Windows.Exit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Makarena.Windows"
+        mc:Ignorable="d"
+        Title="Exit" Height="450" Width="800">
+    <Grid>
+        <Label
+            HorizontalAlignment="Center"
+            Content="Вы хотите выйти?"
+            FontSize="25 px"
+            Margin="200,100"
+            />
+        <Button Content="Да"
+                x:Name="btn_yes"
+                Click="btn_yes_Click"
+                HorizontalAlignment="Left" 
+                Margin="68,245,0,0" 
+                VerticalAlignment="Top" 
+                Height="89" 
+                Width="189"/>
+        <Button Content="Нет"
+            x:Name="btn_no"
+                Click="btn_no_Click"
+            HorizontalAlignment="Left" 
+            Margin="546,245,0,0" 
+            VerticalAlignment="Top" 
+            Height="89" 
+            Width="189"/>
+
+    </Grid>
+</Window>
